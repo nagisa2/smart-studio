@@ -1,0 +1,161 @@
+@media screen {
+.contact {
+    row-gap: 10px;
+    display: flex;
+    margin: 20px 0;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 8px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--bg-color-light);
+}
+
+.contact-t { 
+   display: flex;
+   flex-direction:column;
+   padding:0 20px;
+}
+
+.contact-t h1 {
+    font-size: 1rem;
+}
+
+.contact-t p {
+    font-size: .8rem;
+}
+
+.btn-contact {
+    margin:0 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .8rem;
+    padding: 5px 25px;
+    color: var(--bg-color);
+    background-color: var(--dark-shade-color);
+}
+
+.btn-contact:hover {
+    color:var(--text-white-color);
+    background-color: var( --text-red-color);
+
+}
+
+}
+
+/* ipad/tablet */
+@media only screen and (min-width:48.0em){ 
+
+    .contact {
+        padding: 20px 0;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: var(--bg-color-light);
+    }
+    
+
+    
+    .contact-t h1 {
+        font-size: 1rem;
+    }
+    
+    .contact-t p {
+        font-size: .9rem;
+    }
+    
+    .btn-contact {
+        font-size: .8rem;
+        padding: 5px 25px;
+      
+    }
+    
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+    .contact {
+        padding: 20px 0;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: var(--bg-color-light);
+    }
+    
+
+    
+    .contact-t h1 {
+        font-size: 1rem;
+    }
+    
+    .contact-t p {
+        font-size: .9rem;
+    }
+    
+    .btn-contact {
+        font-size: .8rem;
+        padding: 58x 25px;
+      
+    }
+
+}
+
+/* large screens : Desktop and 4k screens */
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+
+
+    .contact {
+        padding: 50px 0;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: var(--bg-color-light);
+    }
+    
+
+    
+    .contact-t h1 {
+        font-size: 1.2rem;
+    }
+    
+    .contact-t p {
+        font-size: 1rem;
+    }
+    
+    .btn-contact {
+        font-size: 1rem;
+        padding: 10px 25px;
+      
+    }
+
+
+}
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+
+    .contact {
+        padding: 50px 30px;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: var(--bg-color-light);
+    }
+    
+
+    
+    .contact-t h1 {
+        font-size: 1.5rem;
+    }
+    
+    .contact-t p {
+        font-size: 1.2rem;
+    }
+    
+    .btn-contact {
+        font-size: 1rem;
+        padding: 10px 25px;
+        
+      
+    }
+
+}

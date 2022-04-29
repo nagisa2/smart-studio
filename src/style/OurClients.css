@@ -1,0 +1,134 @@
+@media screen {
+
+.clients-h {
+    display:flex;
+    justify-content: center;
+}
+
+.clients-h h3 {
+
+    font-size: .7rem;
+    margin-bottom:1px;
+    color: var(--text-white-color);
+
+}
+
+.clients-li {
+    padding: 50px 0;
+}
+
+.clients-li ul {
+    gap:10px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    font-size:.8rem;
+
+
+}
+
+.clients-li ul li {
+    list-style: none;
+    color: var(--text-color-light);
+}
+
+}
+ 
+/* ipad/tablet */
+@media only screen and (min-width:48.0em){ 
+
+    .clients {
+        margin: 50px 0;
+    }
+
+   
+   .clients-h h3 {
+   
+       font-size: .9rem;
+       margin-bottom:4px;
+   }
+   
+   .clients-li ul {
+       gap:10px;
+       font-size:1rem;
+       color: var(--text-white-color)
+   }
+   
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+    .clients {
+        margin: 50px 0;
+    }
+   
+   .clients-h h3 {
+   
+       font-size: 1rem;
+       margin-bottom:6px;
+   }
+
+   .clients-li {
+    padding: 150px 50px;
+}
+
+   .clients-li ul {
+       gap:20px;
+       font-size:1.3rem;
+   }
+
+}
+
+/* large screens : Desktop and 4k screens */
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+
+    .clients {
+        margin: 70px 0;
+    }
+   
+   .clients-h h3 {
+   
+       font-size: 1rem;
+       margin-bottom:6px;
+   }
+
+   .clients-li {
+    padding: 150px 50px;
+}
+
+   
+   .clients-li ul {
+       gap:20px;
+       font-size:1.3rem;
+   }
+
+}
+
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+
+    .clients {
+        margin: 50px 0;
+    }
+   
+   .clients-h h3 {
+   
+       font-size: 1.3rem;
+       margin-bottom:6px;
+   }
+
+   .clients-li {
+    padding:100px;
+}
+
+   
+   .clients-li ul {
+       gap:20px;
+       font-size:1.3rem;
+   }
+
+}

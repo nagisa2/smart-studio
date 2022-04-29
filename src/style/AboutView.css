@@ -1,0 +1,557 @@
+@media screen {
+
+.abt-us {
+    margin: 30px 0;
+}
+
+.abt-t {
+    padding:10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.abt-t h1 {
+    font-size: 1.2rem;
+}
+
+.abt-t p {
+    font-size: .9rem;
+}
+
+.abt-section {
+    display: flex;
+    flex-direction: row;
+    margin-top:50px;
+
+
+}
+
+.abt-layout {
+    row-gap: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+
+.layout-txt {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.layout-txt h3 {
+    margin:10px 0;
+    text-align:center;
+    font-size:.9rem;
+    color: var(--text-white-color);
+}
+
+.layout-txt p {
+    text-align:center;
+    font-size:.8rem;
+}
+
+.layout-img {
+    display: flex;
+    padding:10px;
+    flex-direction: column;
+    justify-content:space-between;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    border-radius: 12px;
+
+}
+
+.l-img1 {
+    background-image: url("../assets/information.jpg");
+}
+
+.l-img2 {
+    background-image: url("../assets/planning.jpg");
+}
+
+.l-img3 {
+    background-image: url("../assets/completed.jpg");
+}
+
+.layout-img span {
+    background-color:var(--text-white-color);
+    width: fit-content;
+    padding:5px 10px;
+    border-radius:2px;
+    text-align: center;
+    color: var(--bg-color);
+}
+
+.play-icon {
+ height: 100px;
+ width:100px;
+ position: absolute;
+ z-index: -1;
+}
+
+.icon-text-bac {
+
+
+    width:40px;
+    height:40px;
+    position: absolute;
+    z-index: -1;
+    right: 0px;
+    transform: rotate(45deg);
+
+}
+.icon-rec {
+    transform: rotate(45deg);
+    width:70px;
+    height:70px;
+    fill: var(--text-white-color);
+}
+
+}
+
+/* ipad/tablet */
+@media only screen and (min-width:48.0em){ 
+
+    .abt-us {
+        margin: 30px 0;
+    }
+
+    
+   .abt-t h1 {
+      font-size: 1.2rem;
+    }
+
+    .abt-t p {
+       padding:5px;
+       font-size: .9rem;
+    }
+
+    
+    .abt-t {
+        padding:30px 70px;
+    }
+    
+    .abt-section {
+        padding:20px;
+    }
+    
+    .abt-layout {
+        flex-direction: row;
+        column-gap: 20px;
+    }
+
+    .opposite {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .layout-txt , .layout-img {
+        flex:50%;
+    }
+    
+    .layout-txt {
+        padding:20px;
+        flex-direction:column;
+        align-items: flex-start;
+        justify-content: center;
+       
+    }
+    
+    .layout-txt h3 {
+        font-size: 1rem;
+    }
+    
+    .layout-txt p {
+        text-align:start;
+        font-size:.9rem;
+    }
+    
+    .layout-img {
+        border-radius:30px;
+    }
+    
+    .layout-img span {
+        border-radius:5px;
+    }
+
+    .company {
+        position:relative;
+        right:50px;
+        top:20px;
+    }
+
+    .plan {
+        position:relative;
+        right:90px;
+        bottom:30px;
+    }
+
+    .time {
+        position:relative;
+        left:320px;
+        top:20px;
+    }
+
+    .location {
+        position:relative;
+        left:130px;
+        top:20px;
+    }
+    
+    .play-icon {
+     height: 300px;
+     width:300px;
+    }
+    
+    .icon-text-bac {
+        width:100px;
+        height:100px;
+    }
+
+    .icon-rec {
+        right:50px;
+        width:70px;
+        height:70px;
+        position:relative;
+       
+    }
+
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+    .abt-us {
+        margin: 30px 0;
+        padding:50px;
+    }
+
+    .abt-t h1 {
+        font-size: 1.4rem;
+      }
+  
+      .abt-t p {
+        padding:10px;
+        font-size: 1.2rem;
+      }
+  
+      
+      .abt-t {
+          padding:30px 100px;
+      }
+    
+    .abt-section {
+        padding:20px;
+    }
+    
+    .abt-layout {
+        flex-direction: row;
+        column-gap: 20px;
+    }
+
+    .opposite {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .layout-txt , .layout-img {
+        flex:50%;
+    }
+    
+    .layout-txt {
+        padding:20px;
+        flex-direction:column;
+        align-items: flex-start;
+        justify-content: center;
+       
+    }
+    
+    .layout-txt h3 {
+        font-size: 1.2rem;
+    }
+    
+    .layout-txt p {
+        text-align:start;
+        font-size:1rem;
+    }
+    
+    .layout-img {
+        border-radius:30px;
+    }
+    
+    .layout-img span {
+        border-radius:5px;
+    }
+
+    .company {
+        position:relative;
+        right:50px;
+        top:20px;
+    }
+
+    .plan {
+        position:relative;
+        right:80px;
+        bottom:30px;
+    }
+
+    .time {
+        position:relative;
+        left:390px;
+        top:20px;
+    }
+
+    .location {
+        position:relative;
+        left:180px;
+        top:20px;
+    }
+    
+    .play-icon {
+     height: 300px;
+     width:300px;
+    }
+    
+    .icon-text-bac {
+        width:100px;
+        height:100px;
+    }
+
+    .icon-rec {
+        right:50px;
+        width:70px;
+        height:70px;
+        position:relative;
+       
+    }
+
+}
+
+/* large screens : Desktop and 4k screens */
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+
+
+    .abt-us {
+        margin: 30px 0;
+        padding:50px;
+    }
+    
+    .abt-t {
+        padding:40px 120px;
+    }
+  
+
+    .abt-t h1 {
+        font-size: 1.4rem;
+      }
+  
+      .abt-t p {
+        padding:10px;
+        font-size: 1.2rem;
+      }
+  
+    
+    .abt-section {
+        padding:20px;
+    }
+    
+    .abt-layout {
+        flex-direction: row;
+        column-gap: 20px;
+    }
+
+    .opposite {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .layout-txt , .layout-img {
+        flex:50%;
+    }
+    
+    .layout-txt {
+        padding:20px;
+        flex-direction:column;
+        align-items: flex-start;
+        justify-content: center;
+       
+    }
+    
+    .layout-txt h3 {
+        font-size: 1.2rem;
+    }
+    
+    .layout-txt p {
+        text-align:start;
+        font-size:1rem;
+    }
+    
+    .layout-img {
+        height: 370px;
+        border-radius:30px;
+    }
+    
+    .layout-img span {
+        border-radius:5px;
+    }
+
+    .company {
+        position:relative;
+        right:50px;
+        top:20px;
+    }
+
+    .plan {
+        position:relative;
+        right:80px;
+        bottom:30px;
+    }
+
+    .time {
+        position:relative;
+        left:500px;
+        top:20px;
+    }
+
+    .location {
+        position:relative;
+        left:200px;
+        top:20px;
+    }
+    
+    .play-icon {
+     height: 350px;
+     width:350px;
+    }
+    
+    .icon-text-bac {
+        width:130px;
+        height:130px;
+    }
+
+    .icon-rec {
+        right:50px;
+        width:80px;
+        height:80px;
+        position:relative;
+       
+    }
+
+}
+
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+
+    .abt-us {
+        padding:140px;
+    }
+    
+    .abt-t {
+        padding:40px 120px;
+    }
+  
+
+    .abt-t h1 {
+        font-size: 2rem;
+      }
+  
+      .abt-t p {
+        padding:10px;
+        font-size: 1.2rem;
+      }
+  
+    
+    .abt-section {
+        padding:40px;
+    }
+    
+    .abt-layout {
+        flex-direction: row;
+        column-gap: 20px;
+    }
+
+    .opposite {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .layout-txt , .layout-img {
+        flex:50%;
+    }
+    
+    .layout-txt {
+        padding:20px;
+        flex-direction:column;
+        align-items: flex-start;
+        justify-content: center;
+       
+    }
+    
+    .layout-txt h3 {
+        font-size: 1.4rem;
+    }
+    
+    .layout-txt p {
+        text-align:start;
+        font-size:1.2rem;
+    }
+    
+    .layout-img {
+        height: 400px;
+        border-radius:30px;
+    }
+    
+    .layout-img span {
+        border-radius:5px;
+    }
+
+    .company {
+        position:relative;
+        right:50px;
+        top:20px;
+    }
+
+    .plan {
+        position:relative;
+        right:80px;
+        bottom:30px;
+    }
+
+    .time {
+        position:relative;
+        left:500px;
+        top:-20px;
+    }
+
+    .location {
+        position:relative;
+        left:200px;
+        top:20px;
+    }
+    
+    .play-icon {
+     height: 350px;
+     width:350px;
+    }
+    
+    .icon-text-bac {
+        width:130px;
+        height:130px;
+    }
+
+    .icon-rec {
+        right:50px;
+        width:80px;
+        height:80px;
+        position:relative;
+       
+    }
+
+}

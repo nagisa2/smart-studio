@@ -1,0 +1,298 @@
+
+@media screen {
+
+.services-h-txt {
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+    margin: 20px;
+}
+
+.services-h-txt h1{
+    font-size:1rem;
+}
+
+.services-h-txt h3{
+    font-size:.7rem;
+    text-align:center;
+}
+
+.card-container {
+    display:flex;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.s-card {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border-radius: 10px;
+    padding:15px 0;
+    min-height: 290px;
+    background-color:var(--bg-color-light);
+}
+
+
+.icon-container {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+
+
+.inner-icon {
+    position:absolute;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.tri-icon {
+    width: 100px;
+    height:auto;
+}
+
+.business-icon {
+    width:40px;
+    height:40px;
+    
+}
+
+.s-txt {
+    display: flex;
+    text-align: center;
+    flex-direction:column;
+    padding: 10px;
+}
+
+.s-txt h1 {
+    font-size:1rem;
+    margin-bottom:5px;
+}
+
+.s-txt p {
+    font-size:.9rem;
+}
+
+}
+
+/* ipad/tablet */
+@media only screen and (min-width:48.0em){ 
+
+    .service {
+
+        height:70vh;
+    }
+
+    .services-h-txt {
+        margin: 30px 0;
+    }
+    
+    .services-h-txt h1{
+        font-size:1.3rem;
+    }
+    
+    .services-h-txt h3{
+        font-size:.9rem;
+    }
+    
+    .card-container {
+        gap: 40px;
+        display:flex;
+        padding:30px;
+        flex-wrap: wrap;
+        flex-direction:row;
+
+    }
+    
+    .s-card {
+        border-radius: 10px;
+        width:45%;
+    }
+
+    .tri-icon {
+        width: 100px;
+        height:auto;
+    }
+    
+    .business-icon {
+        width:40px;
+        height:40px;
+        
+    }
+    
+    .s-txt h1 {
+        font-size:1rem;
+        margin-bottom:5px;
+    }
+
+
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+    .service {
+
+        height:70vh;
+        
+    }
+
+    .services-h-txt {
+        margin: 30px 0;
+    }
+    
+    .services-h-txt h1{
+        font-size:1.5rem;
+    }
+    
+    .services-h-txt h3{
+        font-size:1rem;
+    }
+    
+    .card-container {
+        gap: 40px;
+        display:flex;
+        padding:30px;
+        flex-wrap: wrap;
+        flex-direction:row;
+
+    }
+    
+    .s-card {
+        border-radius: 10px;
+        width:30%;
+    }
+
+    .tri-icon {
+        width: 100px;
+        height:auto;
+    }
+    
+    .business-icon {
+        width:40px;
+        height:40px;
+        
+    }
+    
+    .s-txt h1 {
+        font-size:1rem;
+        margin-bottom:5px;
+    }
+    
+
+}
+
+/* large screens : Desktop and 4k screens */
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+
+    .services {
+        margin:60px 0;
+      
+    }
+
+    .services-h-txt {
+        margin: 30px 0;
+    }
+    
+    .services-h-txt h1{
+        font-size:1.5rem;
+    }
+    
+    .services-h-txt h3{
+        font-size:1rem;
+    }
+    
+    .card-container {
+        gap: 40px;
+        display:flex;
+        padding:100px 30px;
+        flex-wrap: wrap;
+        flex-direction:row;
+
+    }
+    
+    .s-card {
+        border-radius: 10px;
+        width:22%;
+    }
+
+    .tri-icon {
+        width: 100px;
+        height:auto;
+    }
+    
+    .business-icon {
+        width:40px;
+        height:40px;
+        
+    }
+    
+    .s-txt h1 {
+        font-size:1.2rem;
+        margin-bottom:5px;
+    }
+
+}
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+
+    
+    .services {
+        margin:200px 0;
+    }
+
+    .services-h-txt {
+        margin: 50px 0;
+    }
+    
+    .services-h-txt h1{
+        font-size:1.7rem;
+    }
+    
+    .services-h-txt h3{
+        font-size:1.1rem;
+    }
+    
+    .card-container {
+        gap: 40px;
+        display:flex;
+        padding:100px;
+        flex-wrap: wrap;
+        flex-direction:row;
+
+    }
+    
+    .s-card {
+     
+        width:22%;
+    }
+
+    .tri-icon {
+        width: 100px;
+        height:auto;
+    }
+    
+    .business-icon {
+        width:40px;
+        height:40px;
+        
+    }
+    
+    .s-txt h1 {
+        font-size:1.2rem;
+        margin-bottom:5px;
+    }
+
+
+}

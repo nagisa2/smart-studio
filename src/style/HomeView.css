@@ -1,0 +1,457 @@
+@media screen {
+
+.home {
+    height:110%;
+    margin:0 10px;
+}
+
+.hero-txt h1 {
+
+    font-size: 2rem;
+    margin-bottom:10px;
+}
+
+.hero-txt span {
+
+    color: var(--text-red-color);
+}
+
+.hero-txt p {
+    font-size: .9rem;
+    margin-bottom: 20px;
+}
+
+.hero-button {
+    gap:10px;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.btn-hero {
+    border: 1px solid var(--dark-shade-color );
+    color: var(--light-shade-color);
+    background-color:transparent;
+    padding: 10px 20px;
+    font-size:.8rem;
+    cursor:pointer;
+    outline: none;
+    
+}
+
+
+
+.btn-2 {
+
+    border: none;
+}
+
+.btn-2:hover 
+, .btn-1:hover {
+
+    border: none;
+    background-color: var(--text-red-color);
+    color:var(--text-white-color);
+}
+
+.middle-img {
+
+    display: none;
+
+}
+
+.hr {
+    display: none;
+}
+
+.bg-image, .tri-play , .play-tri {
+    display:none;
+}
+
+.home-y {
+    background-image: url("../assets/Bgpic.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    margin: 30px 0;
+    height: 400px; 
+    width:auto;
+
+}
+
+.triangle {
+    position: absolute;
+    z-index: -1;
+    height: 400px;
+    width: 400;
+}
+
+.home-pad {
+    margin:0 10px;
+}
+
+
+}
+
+/* ipad/tablet */
+@media only screen and (min-width:48.0em){ 
+
+    .home {
+     
+        display:flex;
+        height:65%;
+
+    }
+    
+    .p2 {
+        flex: 50%;
+    }
+
+    
+    .hero-button {
+    justify-content: flex-start;
+ 
+    }
+
+    .home-y {
+     
+        overflow:hidden;
+        border-radius:50px;
+        transform:rotate(60deg);
+        position:relative;
+        height:400px;
+        z-index:-1;
+        bottom:60px;
+        left:140px;
+        object-position:center;
+        object-fit: contain;
+        background-image:none;
+    }
+
+    .bg-image {
+        display:block;
+        height:600px;
+        width:500px;
+        transform:rotate(-55deg);
+    }
+
+
+    .home-h {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        width:100%;
+        
+
+    }
+
+    .home-t {
+      position:relative;
+      display:flex;
+    }
+
+    .hero {
+        position:absolute;
+        width:50%;
+        margin-left:20px;
+        
+    }
+
+    .middle-c {
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+        position:absolute;
+        display: flex;
+        left:420px;
+        top:320px; 
+    }
+
+    .hr { 
+        display: block;
+        border: 1px inset  var( --light-shade-color);
+        height:30px;
+        margin:5px 0;
+        overflow: hidden;
+   
+    }
+     
+
+    .middle-img {
+
+        background-image: url("../assets/p32.jpg");
+        background-repeat: no-repeat;
+        background-position:fill;
+        background-size: cover;
+        height:120px;
+        width:200px;
+    
+    } 
+
+    .middle-img , .middle {
+        display:flex;
+        align-items:center;
+        flex-direction:column;
+        justify-content:center;
+    
+    }
+
+    .middle {
+        margin:15px 0;
+    }
+
+    .tri-play {
+        transform:rotate(45deg);
+        position:absolute;
+        display:block;
+        width: 50px;
+        height:50px;
+    }
+
+    .play-tri {
+        display:block;
+        width:15px;
+        height:15px;
+    }
+
+    .upto {
+
+        margin: 0 20px;
+    }
+
+    
+    .n-t {
+        margin: 30px 20px ;
+    }
+
+
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+
+    .home {
+        height:85%;
+      
+    }
+    
+
+    .hero-txt h1 {
+
+        font-size: 2.3rem;
+    }
+
+    .hero-txt p {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+    }
+    
+    .hero-button {
+        gap:40px;
+        justify-content: flex-start;
+     
+    }
+    
+    .btn-hero {
+        padding: 10px 25px;
+        font-size:1rem;
+        
+    }
+    
+    .home {
+     
+        display:flex;
+    }
+    
+    .p2 {
+        flex: 50%;
+    }
+
+    .home-y {
+  
+        left:140px;
+        bottom:60px;
+        height:500px;
+    }
+
+    .bg-image {
+        height:670px;
+        width:640px;
+    }
+
+    .middle-c {
+        left:560px;
+        top:450px; 
+    }
+
+     
+
+    .middle-img {
+        height:120px;
+        width:200px;
+    
+    } 
+
+    .n-t {
+        margin: 40px 40px ;
+    }
+
+
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+
+
+    .home {
+        height:85%;
+        margin:0 30px;
+    }
+
+    .hero-txt h1 {
+
+        font-size: 2.5rem;
+    }
+
+    .hero-txt p {
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+    }
+    
+    .hero-button {
+        gap:40px;
+        justify-content: flex-start;
+     
+    }
+    
+    .btn-hero {
+        padding: 10px 25px;
+        font-size:1rem;
+        
+    }
+    
+    .home {
+     
+        display:flex;
+    }
+
+    
+    .home-y {
+        transform:rotate(50deg);
+        height:500px;
+        bottom:50px;
+        left:250px;
+
+    }
+
+    
+    .p2 {
+        flex: 50%;
+    }
+
+
+    .bg-image {
+        display:block;
+        height:770px;
+        width:640px;
+    }
+
+    .middle-c {
+        left:980px;
+        top:470px; 
+    }
+    
+    .middle {
+        margin:15px 0;
+    }
+
+    .n-t {
+        margin: 60px 30px ;
+    }
+
+
+
+}
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+
+
+    .home {
+        height:100%;
+    }
+
+    
+    .hero-txt h1 {
+
+        font-size: 3rem;
+    }
+
+    .hero-txt p {
+        font-size: 1.5rem;
+        margin-bottom: 60px;
+        width:60%;
+    }
+    
+    .hero-button {
+        gap:50px;
+        justify-content: flex-start;
+     
+    }
+    
+    .btn-hero {
+        padding: 15px 40px;
+        font-size:1.2rem;
+        
+    }
+    
+    .home {
+     
+        display:flex;
+    }
+
+    
+    .home-y {
+        transform:rotate(50deg);
+        height:700px;
+        bottom:100px;
+        left:260px;
+    }
+
+    
+    .p2 {
+        flex: 50%;
+    }
+
+
+    .bg-image {
+        display:block;
+        height:990px;
+        width:990px;
+    }
+
+    .middle-img {
+        height:150px;
+        width:230px;
+    }
+
+    .middle-c {
+        left:1260px;
+        top:540px; 
+    }
+    
+    .middle {
+        margin:15px 0;
+    }
+
+
+    .n-c {
+        margin: 0 110px;
+    }
+
+}
+
+    

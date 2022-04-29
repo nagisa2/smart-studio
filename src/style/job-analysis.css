@@ -1,0 +1,164 @@
+@media screen {
+
+.job {
+    display: flex;
+    flex-wrap:wrap;
+    margin: 50px 0;
+    align-items:center;
+    justify-content:space-between;
+
+}
+
+.job-c {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.job-icon {
+    height: 80px;
+    width: 80px;
+    transform: rotate(45deg);
+}
+
+.inner-job {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    padding-bottom: 10px;
+}
+.inner {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.inner h1 {
+    font-size: 1rem;
+}
+.inner-job span {
+    color: var(--text-red-color);
+    font-size: .4rem;
+}
+
+.inner span {
+    font-size: 1rem;
+
+}
+
+}
+
+    
+/* ipad/tablet */
+@media only screen and (min-width:48.0em){ 
+
+    .job {
+        margin: 70px 20px;
+    }
+    
+    .job-icon {
+        height: 110px;
+        width: 110px;
+        transform: rotate(45deg);
+    }
+ 
+    .inner h1 {
+        font-size: 1.1rem;
+    }
+
+    .inner-job span {
+        font-size: .6rem;
+    }
+    
+    .inner span {
+        font-size: 1.7rem;
+    
+    }
+
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+    .job {
+        margin: 80px 20px;
+    }
+    
+    .job-icon {
+        height: 130px;
+        width: 130px;
+        transform: rotate(45deg);
+    }
+ 
+    .inner h1 {
+        font-size: 1.3rem;
+    }
+    .inner-job span {
+        font-size: .7rem;
+    }
+    
+    .inner span {
+        font-size: 2rem;
+    
+    }
+
+}
+
+/* large screens : Desktop and 4k screens */
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+
+    .job {
+        margin: 150px 20px;
+    }
+    
+    .job-icon {
+        height: 130px;
+        width: 130px;
+        transform: rotate(45deg);
+    }
+ 
+    .inner h1 {
+        font-size: 1.4rem;
+    }
+    .inner-job span {
+        font-size: .7rem;
+    }
+    
+    .inner span {
+        font-size: 2rem;
+    
+    }
+
+}
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+
+    .job {
+        margin: 80px 100px;
+    }
+    
+    .job-icon {
+        height: 180px;
+        width: 180px;
+        transform: rotate(45deg);
+    }
+ 
+    .inner h1 {
+        font-size: 2rem;
+    }
+    .inner-job span {
+        font-size: .9rem;
+    }
+    
+    .inner span {
+        font-size: 3rem;
+    
+    }
+
+
+}

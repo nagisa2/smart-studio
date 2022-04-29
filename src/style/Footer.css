@@ -1,0 +1,216 @@
+@media screen {
+.footer {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    column-gap:10px;
+    padding:30px 0;
+}
+.address , .company{
+    row-gap:5px;
+    display:flex;
+    flex-direction: column;
+   
+}
+
+.follow {
+    column-gap:5px;
+    display:flex;
+    flex-direction: row;
+}
+
+.follow-icon {
+    cursor: pointer;
+    width: 15px;
+    height:15px;
+}
+
+.follow-icon:hover {
+    width:18px;
+    height:18px;                                                                                                                                                                                                                                                                                                                                                                                                                
+}
+
+.footer h1 {
+    font-size:.8rem;
+    margin:5px 0;
+}
+
+.footer span {
+    font-size:.8rem;
+}
+
+
+
+}
+
+/* ipad/tablet */
+@media only screen and (min-width:48.0em){ 
+
+    .footer {
+        column-gap:10px;
+        padding:50px 0;
+    
+    }
+    .address , .company{
+        row-gap:5px;
+        display:flex;
+        flex-direction: column;
+       
+    }
+    
+    .follow {
+        column-gap:8px;
+        display:flex;
+        flex-direction: row;
+    }
+    
+    .follow-icon {
+        width: 30px;
+        height:30px;
+    }
+
+    .follow-icon:hover {
+        width:35px;
+        height:35px;                                                                                                                                                                                                                                                                                                                                                                                                                
+    }
+    
+    .footer h1 {
+        font-size:1.3rem;
+        margin:5px 0;
+    }
+    
+    .footer span {
+        font-size:1.2rem;
+    }
+
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+    .footer {
+        column-gap:10px;
+        padding:100px 0;
+    
+    }
+    .address , .company{
+        row-gap:5px;
+        display:flex;
+        flex-direction: column;
+       
+    }
+    
+    .follow {
+        column-gap:15px;
+        display:flex;
+        flex-direction: row;
+    }
+    
+    .follow-icon {
+        width: 35px;
+        height:35px;
+    }
+
+    .follow-icon:hover {
+        width:38px;
+        height:38px;                                                                                                                                                                                                                                                                                                                                                                                                                
+    }
+    
+    .footer h1 {
+        font-size:1.5rem;
+        margin:5px 0;
+    }
+    
+    .footer span {
+        font-size:1.3rem;
+    }
+}
+
+
+/* large screens : Desktop and 4k screens */
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+
+    .footer {
+        column-gap:10px;
+        padding:100px 0;
+    
+    }
+    .address , .company{
+        row-gap:5px;
+        display:flex;
+        flex-direction: column;
+       
+    }
+    
+    .follow {
+        column-gap:15px;
+        display:flex;
+        flex-direction: row;
+    }
+    
+    .follow-icon {
+        width: 38px;
+        height:38px;
+    }
+
+    .follow-icon:hover {
+        width:40px;
+        height:40px;                                                                                                                                                                                                                                                                                                                                                                                                                
+    }
+    
+    .footer h1 {
+        font-size:1.5rem;
+        margin:5px 0;
+    }
+    
+    .footer span {
+        font-size:1.3rem;
+    }
+
+}
+
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+
+    
+    .footer {
+        column-gap:10px;
+        padding:100px 50px;
+        padding-top:300px;
+    
+    
+    }
+    .address , .company{
+        row-gap:5px;
+        display:flex;
+        flex-direction: column;
+       
+    }
+    
+    .follow {
+        column-gap:15px;
+        display:flex;
+        flex-direction: row;
+    }
+    
+    .follow-icon {
+        width: 38px;
+        height:38px;
+    }
+    
+    .follow-icon:hover {
+        width:40px;
+        height:40px;                                                                                                                                                                                                                                                                                                                                                                                                                
+    }
+    
+    .footer h1 {
+        font-size:1.5rem;
+        margin:5px 0;
+    }
+    
+    .footer span {
+        font-size:1.3rem;
+    }
+
+}
